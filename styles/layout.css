@@ -76,15 +76,17 @@ input, textarea, select{font-size:12px; font-family:Georgia,"Times New Roman",Ti
 .three_third{width:960px; float:none; margin-right:0; clear:both;}
 
 .lastbox{margin-right:0;}
-
+.parent {position: relative;}
+.text-block {position: absolute;bottom: 140px;left: 10px;background-color: #fff;opacity: .8; color: black; font-family: 'Tangerine', serif; font-size: 38px; text-shadow: 2px 2px 2px #000; padding-left: 10px; padding-right: 10px;padding-bottom: 10px; border-radius: 15px 40px;}
+.parent img { width: 100%; }
 /*----------------------------------------------Header-------------------------------------*/
 
 #header{padding:20px 0;}
 
 #header #hgroup{float:left; margin:0 0 20px 0;}
 #header #hgroup h1, #header #hgroup h2{font-weight:normal; font-style:normal; text-transform:none;}
-#header #hgroup h1{font-size:36px;}
-#header #hgroup h2{font-size:13px;}
+#header #hgroup h1{font-size:40px; font-family: 'Cinzel Decorative', cursive;}
+#header #hgroup h2{font-size:18px; font-family: 'Cinzel Decorative', cursive;}
 
 #header nav{display:block; float:right; margin:10px 0 0 0; padding:20px 0; color:#C0BAB6; background-color:#232323;}
 #header nav ul{padding:0 20px;}
